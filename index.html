@@ -1,0 +1,174 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Organic Chemistry</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-roboto bg-gray-100 text-gray-900">
+    <header class="bg-blue-600 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">General Organic Chemistry</h1>
+            <nav>
+                <ul class="hidden md:flex space-x-4">
+                    <li><a href="#isomerism" class="hover:underline">Isomerism</a></li>
+                    <li><a href="#chemical-bonding" class="hover:underline">Chemical Bonding</a></li>
+                    <li><a href="#coordination-compounds" class="hover:underline">Coordination Compounds</a></li>
+                    <li><a href="#amines" class="hover:underline">Amines</a></li>
+                    <li><a href="#hydrocarbons" class="hover:underline">Hydrocarbons</a></li>
+                    <li><a href="#haloalkanes-haloarenes" class="hover:underline">Haloalkanes & Haloarenes</a></li>
+                    <li><a href="#biomolecules" class="hover:underline">Biomolecules</a></li>
+                </ul>
+                <button id="menu-btn" class="md:hidden text-white focus:outline-none">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+        <div id="menu" class="hidden md:hidden">
+            <ul class="flex flex-col space-y-2 mt-2">
+                <li><a href="#isomerism" class="hover:underline">Isomerism</a></li>
+                <li><a href="#chemical-bonding" class="hover:underline">Chemical Bonding</a></li>
+                <li><a href="#coordination-compounds" class="hover:underline">Coordination Compounds</a></li>
+                <li><a href="#amines" class="hover:underline">Amines</a></li>
+                <li><a href="#hydrocarbons" class="hover:underline">Hydrocarbons</a></li>
+                <li><a href="#haloalkanes-haloarenes" class="hover:underline">Haloalkanes & Haloarenes</a></li>
+                <li><a href="#biomolecules" class="hover:underline">Biomolecules</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="container mx-auto p-4">
+        <section id="chemical-bonding" class="mb-8">
+            <h2 class="text-xl font-bold mb-4">Chemical Bonding</h2>
+            <p class="mb-2">Definition: Chemical bonding involves the forces that hold atoms together in molecules.</p>
+            <h3 class="text-lg font-semibold mb-2">Types of Bonds:</h3>
+            <ul class="list-disc list-inside mb-4">
+                <li><strong>Covalent Bond:</strong> Sharing of electrons between atoms.</li>
+                <li><strong>Ionic Bond:</strong> Transfer of electrons between atoms, resulting in the formation of ions.</li>
+                <li><strong>Hydrogen Bond:</strong> A special type of dipole-dipole interaction involving a hydrogen atom bonded to a highly electronegative atom.</li>
+            </ul>
+            <h3 class="text-lg font-semibold mb-2">Key Concepts:</h3>
+            <ul class="list-disc list-inside mb-4">
+                <li><strong>Hybridization:</strong> The mixing of atomic orbitals to form hybrid orbitals with different shapes and energies, which are more suitable for bonding.</li>
+                <li><strong>Molecular Geometry:</strong> The three-dimensional arrangement of atoms in a molecule, determined by the repulsion between electron pairs.</li>
+            </ul>
+            <p class="mb-2"><strong>Valence Shell Electron Pair Repulsion (VSEPR) Theory:</strong> A model used to predict the geometry of individual molecules based on the number of electron pairs surrounding their central atoms.</p>
+        </section>
+
+        <section id="isomerism" class="mb-8">
+            <h2 class="text-xl font-bold mb-4">Isomerism</h2>
+            <p class="mb-2">Definition: Isomers are molecules that have the same molecular formula but different structural or spatial arrangements of atoms.</p>
+            <h3 class="text-lg font-semibold mb-2">Types of Isomerism:</h3>
+            <ul class="list-disc list-inside mb-4">
+                <li><strong>Structural Isomerism:</strong> Compounds with the same molecular formula but different connectivity of atoms.
+                    <ul class="list-disc list-inside ml-4">
+                        <li><strong>Chain Isomerism:</strong> Variation in the carbon chain structure (e.g., butane and isobutane).</li>
+                        <li><strong>Position Isomerism:</strong> Variation in the position of a functional group or substituent on a carbon chain (e.g., 1-propanol and 2-propanol).</li>
+                        <li><strong>Functional Isomerism:</strong> Compounds with the same molecular formula but different functional groups (e.g., ethanol and dimethyl ether).</li>
+                    </ul>
+                </li>
+                <li><strong>Stereoisomerism:</strong> Compounds with the same molecular formula and the same connectivity of atoms but different spatial arrangements.
+                    <ul class="list-disc list-inside ml-4">
+                        <li><strong>Geometric Isomerism (Cis-Trans Isomerism):</strong> Occurs in compounds with restricted rotation around a double bond or ring (e.g., cis-2-butene and trans-2-butene).</li>
+                        <li><strong>Enantiomers:</strong> Non-superimposable mirror images of chiral molecules.</li>
+                        <li><strong>Diastereomers:</strong> Stereoisomers that are not enantiomers.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="coordination-compounds" class="mb-8">
+            <h2 class="text-xl font-bold mb-4">Coordination Compounds</h2>
+            <p class="mb-2">Definition: Compounds formed from the coordination of metal ions with ligands (molecules or ions that donate electron pairs).</p>
+            <h3 class="text-lg font-semibold mb-2">Key Concepts:</h3>
+            <ul class="list-disc list-inside mb-4">
+                <li><strong>Ligands:</strong> Molecules or ions that can donate one or more pairs of electrons to a metal ion.</li>
+                <li><strong>Coordination Number:</strong> The number of ligand donor atoms that are bonded to the central metal ion.</li>
+                <li><strong>Chelation:</strong> The process by which a ligand forms multiple bonds to a single metal ion, creating a stable complex.</li>
+            </ul>
+            <h3 class="text-lg font-semibold mb-2">Types of Coordination Compounds:</h3>
+            <ul class="list-disc list-inside mb-4">
+                <li><strong>Monodentate Ligands:</strong> Ligands that can attach to the metal at only one binding site (e.g., water, ammonia).</li>
+                <li><strong>Bidentate Ligands:</strong> Ligands that can attach to the metal at two binding sites (e.g., ethylenediamine).</li>
+                <li><strong>Polydentate Ligands:</strong> Ligands that can attach at multiple sites (e.g., EDTA).</li>
+            </ul>
+        </section>
+
+        <section id="amines" class="mb-8">
+            <h2 class="text-xl font-bold mb-4">Amines</h2>
+            <p class="mb-2">Definition: Organic compounds derived from ammonia (NH₃) by replacing one or more hydrogen atoms with alkyl or aryl groups.</p>
+            <h3 class="text-lg font-semibold mb-2">Classification:</h3>
+            <ul class="list-disc list-inside mb-4">
+                <li><strong>Primary Amines:</strong> One alkyl group attached to the nitrogen (e.g., methylamine).</li>
+                <li><strong>Secondary Amines:</strong> Two alkyl groups attached to the nitrogen (e.g., dimethylamine).</li>
+                <li><strong>Tertiary Amines:</strong> Three alkyl groups attached to the nitrogen (e.g., trimethylamine).</li>
+            </ul>
+            <h3 class="text-lg font-semibold mb-2">Properties:</h3>
+            <ul class="list-disc list-inside mb-4">
+                <li>Amines can act as bases due to the lone pair of electrons on the nitrogen atom.</li>
+                <li>They can form hydrogen bonds, affecting their boiling points and solubility.</li>
+            </ul>
+        </section>
+
+        <section id="hydrocarbons" class="mb-8">
+            <h2 class="text-xl font-bold mb-4">Hydrocarbons</h2>
+            <p class="mb-2">Definition: Organic compounds consisting entirely of hydrogen and carbon.</p>
+            <h3 class="text-lg font-semibold mb-2">Types:</h3>
+            <ul class="list-disc list-inside mb-4">
+                <li><strong>Aliphatic Hydrocarbons:</strong> Straight or branched chain hydrocarbons (e.g., alkanes, alkenes, alkynes).</li>
+                <li><strong>Aromatic Hydrocarbons:</strong> Compounds containing one or more aromatic rings (e.g., benzene).</li>
+            </ul>
+            <h3 class="text-lg font-semibold mb-2">Reactions:</h3>
+            <ul class="list-disc list-inside mb-4">
+                <li><strong>Substitution Reactions:</strong> Replacement of a hydrogen atom in an alkane with another atom or group.</li>
+                <li><strong>Addition Reactions:</strong> Atoms or groups are added to the carbon-carbon double or triple bonds.</li>
+                <li><strong>Elimination Reactions:</strong> Removal of atoms or groups from a molecule, resulting in the formation of double or triple bonds.</li>
+            </ul>
+        </section>
+
+        <section id="haloalkanes-haloarenes" class="mb-8">
+            <h2 class="text-xl font-bold mb-4">Haloalkanes and Haloarenes</h2>
+            <h3 class="text-lg font-semibold mb-2">Haloalkanes:</h3>
+            <p class="mb-2">Organic compounds containing one or more halogen atoms (F, Cl, Br, I) attached to an alkane.</p>
+            <h3 class="text-lg font-semibold mb-2">Haloarenes:</h3>
+            <p class="mb-2">Organic compounds containing one or more halogen atoms attached to an aromatic ring.</p>
+            <h3 class="text-lg font-semibold mb-2">Reactions:</h3>
+            <ul class="list-disc list-inside mb-4">
+                <li><strong>Nucleophilic Substitution:</strong> A nucleophile replaces a halogen atom in haloalkanes and haloarenes.</li>
+                <li><strong>Elimination Reactions:</strong> Formation of alkenes from haloalkanes by the removal of a halogen and a hydrogen atom.</li>
+            </ul>
+        </section>
+
+        <section id="biomolecules" class="mb-8">
+            <h2 class="text-xl font-bold mb-4">Biomolecules</h2>
+            <p class="mb-2">Definition: Organic molecules that are essential for life, including carbohydrates, proteins, lipids, and nucleic acids.</p>
+            <h3 class="text-lg font-semibold mb-2">Types:</h3>
+            <ul class="list-disc list-inside mb-4">
+                <li><strong>Carbohydrates:</strong> Sugars and starches that provide energy and structural support (e.g., glucose, cellulose).</li>
+                <li><strong>Proteins:</strong> Polymers of amino acids that perform a variety of functions (e.g., enzymes, antibodies).</li>
+                <li><strong>Lipids:</strong> Hydrophobic molecules that store energy and form cell membranes (e.g., fats, oils, phospholipids).</li>
+                <li><strong>Nucleic Acids:</strong> Polymers of nucleotides that store and transmit genetic information (e.g., DNA, RNA).</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="bg-blue-600 text-white p-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2023 General Organic Chemistry. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('menu-btn').addEventListener('click', function() {
+            var menu = document.getElementById('menu');
+            if (menu.classList.contains('hidden')) {
+                menu.classList.remove('hidden');
+            } else {
+                menu.classList.add('hidden');
+            }
+        });
+    </script>
+</body>
+</html>
